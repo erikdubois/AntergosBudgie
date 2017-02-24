@@ -13,10 +13,9 @@ http://antergos.com/try-it/
 
 # What can you achieve?
 
-![Screenshots](http://i.imgur.com/VgLhZTz.png)
+![Screenshots](http://i.imgur.com/PbUBYJD.jpg)
 
 
-![Screenshots](http://i.imgur.com/GS4gwHn.jpg)
 
 
 
