@@ -196,7 +196,7 @@ use the git clone command
 # Youtube Resources Antergos Budgie
 
 
-https://www.youtube.com/playlist?list=PLlloYVGq5pS4StYl1Vf1zrbGWCUzoadi-
+https://www.youtube.com/playlist?list=PLlloYVGq5pS72NsnpfhZPdFlrPDxSy1Tj
 
 
 # Youtube Resources all Antergos
