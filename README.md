@@ -10,12 +10,6 @@ Official antergos downloads can be found at
 http://antergos.com/try-it/
 
 
-# Initial look
-
-Let us first take a screenshot of the initial look of this distro.
-
-![Screenshots](http://i.imgur.com/vyZO7pC.png)
-
 
 # What can you achieve?
 
