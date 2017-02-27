@@ -1,5 +1,5 @@
 #!/bin/bash
-set -e
+#set -e
 ##################################################################################################################
 # Written to be used on 64 bits computers
 # Author 	: 	Erik Dubois
@@ -77,7 +77,8 @@ else
 	if pacman -Qi packer &> /dev/null; then
 
 		echo "Installing with packer"
-		packer -S --noconfirm --noedit  $package
+		#packer -S --noconfirm --noedit  $package
+		packer -S --noedit  $package
 
 	elif pacman -Qi pacaur &> /dev/null; then
 		
@@ -91,31 +92,26 @@ else
 			  	
 	fi
 
-	# Just checking if installation was successful
-	if pacman -Qi $package &> /dev/null; then
+	# # Just checking if installation was successful
+	# if pacman -Qi $package &> /dev/null; then
 	
-	echo "################################################################"
-	echo "#########  "$package" has been installed"
-	echo "################################################################"
+	# echo "################################################################"
+	# echo "#########  "$package" has been installed"
+	# echo "################################################################"
 
-	else
+	# else
 
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
-	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	# echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+	# echo "!!!!!!!!!  "$package" has NOT been installed"
+	# echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 
-	fi
+	# fi
 
 fi
 
 
 
-
-
-echo "Run system-config-samba to set up shares"
-
-
 echo "################################################################"
-echo "#########   samba  software installed           ################"
+echo "#########   budgie-desktop and gnome installed   ###############"
 echo "################################################################"
